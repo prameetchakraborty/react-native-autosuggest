@@ -177,7 +177,7 @@ export default class AutoSuggest extends Component {
             }
          </View>
          <View>
-            <ListView style={{position: 'absolute', width: this.state.TIWidth, backgroundColor: 'white', zIndex: 3}}
+            <ListView style={{position: 'absolute', width: this.state.TIWidth, backgroundColor: 'white', zIndex: 1000}}
               keyboardShouldPersistTaps={version >= '0.4.0' ? 'always' : true}
               initialListSize={15}
               enableEmptySections
